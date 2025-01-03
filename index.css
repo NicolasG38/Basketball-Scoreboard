@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+}
+h3{
+    font-family: "Space Grotesk", serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-size:2.5rem;
+    font-style: normal;
+    padding: 0 20px;
+    text-align: center;
+    color: #E0DFD5;
+}
+h4{
+    font-family: "Orbitron", serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 10rem;
+    margin:auto;
+}
+.container {
+    display: flex;
+    justify-content: space-around;
+    margin: 25px auto;
+    background:#F06543;
+    width:700px;
+    height:500px;
+    border-radius: 25px;
+    border:5px solid #BD320F;
+}
+
+.score{
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    width:210px;
+    height:210px;
+    background: #F09D51;
+    border:10px solid #E8E9EB;
+    border-radius:25px;
+}
+#score-home{
+    font-family: "Orbitron", serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 10rem;
+    margin:auto;
+    color:#E0DFD5;
+}
+#score-away{
+    font-family: "Orbitron", serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 10rem;
+    margin:auto;
+    color:#E0DFD5;
+
+}
+.add-points-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin:50px 0 0 0;
+}
+
+.add-points{
+    font-family: "Orbitron", serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+    background: #F09D51;
+    margin: 0 10px;
+    padding:0 18px;
+    border:1px solid #E0DFD5;
+    border-radius: 15px;
+    color:#E0DFD5;
+}
