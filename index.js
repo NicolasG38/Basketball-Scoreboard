@@ -36,3 +36,20 @@ function awayAddThree(){
     countAway+=3
     scoreAway.textContent=countAway
 }
+
+function newGame(){
+    let reset=document.getElementById("new-game-button")
+    reset=countHome+countAway
+    reset=0
+    scoreAway.textContent=reset
+    scoreHome.textContent=reset
+    countHome=0
+    countAway=0
+}
+let homeName=document.getElementById("home-name")
+let guestName=document.getElementById("guest-name")
+let homeNameMessage=prompt("What is the name of the home team ?")
+let guestNameMessage=prompt("What is the name of the guest team ?")
+
+homeName.textContent=homeNameMessage
+guestName.textContent=guestNameMessage
